@@ -1,6 +1,7 @@
-item_price = 0.50
-item_quantity = 100
-total_cost = item_price * item_quantity
+item_name = "Soda"
+item_price = 6.99
+purchase_quantity = 5
 
-
-# Testingprint("Total cost for", purchase_quantity, "cases of", item_name, "is $", total_cost)
+total_cost = item_price * purchase_quantity
+# Testing
+print("Total cost for", purchase_quantity, "cases of", item_name, "is $", total_cost)
